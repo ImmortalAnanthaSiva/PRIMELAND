@@ -1,0 +1,647 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+section {
+  padding: 40px;
+  max-width: 1000px; /* Adjust as needed */
+  margin: 0 auto;
+}
+
+/* Introduction Section */
+#introduction {
+  text-align: center;
+}
+
+#introduction h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#introduction p {
+  font-size: 16px;
+  line-height: 1.5; /* Improves readability */
+}
+
+/* Project Highlights Section */
+.section_header {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.project-highlights .row {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+  justify-content: space-between; /* Evenly distributes items horizontally */
+}
+
+.project-highlights .col-xs-12,
+.project-highlights .col-md-3 {
+  padding: 10px; /* Adds some spacing between columns */
+}
+
+.icon-lf {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.icon-lf img {
+  width: 60px; /* Adjust image size as needed */
+  height: auto; /* Maintains aspect ratio */
+}
+
+.right-txt {
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Project Plan Section */
+.floor-highlights {
+  background-color: #333; /* Dark background for project plan image */
+  color: #fff; /* White text for contrast */
+  padding: 40px 0;
+}
+
+.floor-highlights img {
+  width: 100%; /* Fills the container width */
+}
+
+/* Location Advantages Section */
+.photo-gallery {
+  text-align: center;
+}
+
+.photo-gallery ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.photo-gallery li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Contact Us Section */
+#contact-us iframe {
+  width: 100%; /* Fills the container width */
+  height: 400px; /* Adjust height as needed */
+}
+
+/* Footer */
+footer {
+  background-color: #ddd;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+footer a img {
+  margin-right: 10px; /* Spacing between social media icons */
+}
+
+/* Copyright Section */
+.page_copyright {
+  background-color: #eee;
+  padding: 10px;
+  text-align: center;
+}
+
+.page_copyright p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.sec1{
+  display: flex;
+  justify-content: space-evenly;
+
+  align-items:end;
+}
+
+.secem{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.secgl{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+}
+
+.text1gm{
+  margin-bottom: 0px;
+}
+
+.text2gm{
+  margin-top: 0px;
+}
+
+.b1{
+  border: #ddd;
+  margin-right: 15px;
+  align-items: center;
+}
+
+.seca{
+  width: 225px;
+  height: 75px;
+}
+
+.secbut{
+  align-items: start;
+  display: flex;
+  align-items: center;
+width: 304px;
+height: 64px;
+justify-content: center;
+}
+
+
+.sec3h1{
+  color: #382456;
+  font-weight: bolder;
+}
+
+.sec3d{
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  padding: 10px;
+}
+
+.sec3a{
+  display: flex;
+  text-align: center;
+  color: #382456;
+}
+
+.ma1{
+  color: white;
+  font-size: large  ;
+  background-color:   #f39314;
+  border-radius:5px;
+  border: transparent;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+}
+
+.ma1:hover {
+  background-color: #382456 ; /* Change background color on hover */
+}
+
+.sec3p{
+  font-weight: bold;
+  font-size: small;
+  margin-bottom: 0 ;
+}
+
+.sec3h{
+  font-size:60px;
+  margin-top: 0;
+}
+
+.sec3s{
+  padding: 20px;
+}
+
+.sec4{
+  background-image: url('blur.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 75px;
+}
+
+.sec4a{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.sec4b{
+  background-color: #382456;
+  color: white;
+  padding: 20px;
+  padding-top: 40PX;
+  width: 270px
+}
+
+.sec4ba{
+  background-color:   #f39314;
+  width: 120%;
+  height: 50px;
+  color: white;
+  text-align: left;
+  border: white;
+  margin-bottom: 50px;
+  margin-left: -25px;
+  font-weight: bolder; 
+  padding-left: 20px; 
+}
+
+.sec4c{
+  background-color:   #f39314;
+  color: white;
+  padding: 20px;
+}
+
+.sec4d{
+  background-color:white;
+  color: black;
+  padding: 20px;
+}
+  
+.sec5{
+  background-color: #382456;
+  color: white;
+}
+
+.sec5a{
+  display: flex;
+  column-gap: 20px;
+  padding-bottom: 25px;
+}
+
+.s6{
+  margin: 100px;
+}
+
+.sec6{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 100px;
+  padding-right : 100px;
+}
+
+.ticon1 img{
+  display: block;
+  position:relative;
+  bottom: 20px;
+  right: 20px;
+}
+.sec6 img{
+  width: 100px;
+  height: 100px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.sec6a{
+  background-color: #f0f0f0;
+  color: #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+  text-align: center;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.sec6b{
+  padding-left: 100px;
+  color: #382456;
+}
+
+.sec6b b{
+  font-weight: bolder;
+}
+
+.sec6b p{
+  margin-bottom: 0px;
+}
+
+.sec6b h1{
+  margin-top: 0px;
+  padding-bottom: 30px;
+}
+
+.sec6 h3{
+  margin-bottom: 0px;
+  color: #382456;
+  margin-top: 0px;
+}
+.sec6 p{
+  margin-top: 2px;
+  color: #7c7e84;
+}
+
+
+
+.sec8{
+  display: flex;
+  background-color: #382456;
+  color: white;
+  gap: 30px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.sec8a{
+  text-align: left;
+}
+
+.sec8a li{
+  list-style-type: none;
+}
+
+.sec8 button{
+  background-color: transparent;
+  color: white;
+  border: transparent;
+  text-align: left;
+}
+
+.sec8 hr{
+  border-color:#382456;
+}
+
+.sec8aa{
+  margin-left : 35px;
+}
+
+.sec8c{
+display: flex;
+justify-content: flex-start;
+
+}
+
+.sec9{
+  display: flex;
+  justify-content: space-around;
+  color: #7c7e84;
+}
+
+.sec8b{ 
+  pointer-events: none; /* Disable hyperlink behavior */
+    color:white; 
+    text-decoration: none;
+}
+
+.sec8bb li{ 
+  list-style-type: none;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  
+}
+
+.sec8bb{
+  text-align: left;
+}
+
+.sec8bb ul{ 
+  padding-left: 0px;
+  width: 150px;
+  
+}
+
+.sec9 button{
+  background-color: transparent;
+}
+
+.sec9b{
+  display: flex;
+}
+
+.sec9b button{
+  margin: 0;
+}
+
+.sec9c{
+  padding-top: 7.5px;
+}
+
+.copyright-text2{
+  color: black;
+}
+
+.copyright-text1{
+  color: #f39314;
+} 
+
+.sec10{
+  text-align: center;
+}
+
+.sec10 p{
+  color: #7c7e84;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  line-height: 1.875rem;
+  font-size: 16px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.sec10 h1{
+  font-size: 42px;
+}
+
+.sec11{
+  display: flex;
+  justify-content: space-around;
+  margin: 50px
+}
+
+.sec11 img {
+  padding: 20px 20px 0px 20px;
+  margin-bottom: 0px;
+}
+
+.sec11 h3{
+  margin-top: 0px;
+  padding-bottom: 20px;
+}
+
+.sec11 h1{
+  margin: 0px;
+}
+
+.sec11a{
+  padding-top: 25px;
+  color: #f39314;
+}
+
+.sec12{
+  display: flex;
+  justify-content: center;
+  background-color: #d2e28b;
+}
+
+.sec13{
+  display: flex;
+  justify-content: center;
+  row-gap: 20px;
+  text-align: left;
+}
+
+.sec13a{
+  text-align: center;
+}
+
+.sec13a h1{
+  margin: 50px;
+  font-size: 42px;
+}
+
+.sec13 li{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  line-height: 1.875rem;
+  font-size: 16px;
+  overflow-wrap: break-word;
+  color: #7c7e84;
+}
+
+.sec14{
+  margin-top: 100px;
+}
+
+.sec15a button{
+  background-color: transparent;
+}
+
+.sec15b{
+  background-color: #f0f0f0;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.sec15{
+  margin: 50px;
+}
+
+.sec15ab{
+  background-color: #458121;
+}
+
+.sec16{
+  background-color: #5faf21;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sec17{
+  display: flex;
+  background-color: #382456;
+  height: 200px;
+}
+
+.secas{
+  display: flex;
+justify-content:center  ;
+  background-color: white;
+  width: 100%;
+  height: 70px;
+
+}
+
+.mb25{
+  color: black;
+  font-weight: bolder;
+  background-color: transparent;
+  padding: 20px;
+  border: transparent;
+}
+
+.mb25:hover {
+  color:#5faf21;
+}
+
+.secasd{
+  display: flex;
+}
+
+.secasd img{
+  padding-left: 40px;
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #382456;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+  
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: #382456;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.navbar{
+  display: flex;
+  justify-content: center;
+  
+}
